@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>鹈鹕的海岸骑行</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3eedf;color:#244b4c;font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif}main{max-width:1200px;margin:auto;padding:38px 28px 24px}.eyebrow{font-size:12px;letter-spacing:4px;text-transform:uppercase}header{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px}h1{font-size:clamp(26px,4vw,46px);font-weight:650;letter-spacing:2px;margin:12px 0 0}header p{font-size:14px;color:#70817a}.scene{overflow:hidden;border-radius:22px;border:1px solid #d9dfcf;background:#d4ece6;box-shadow:0 20px 55px #284c4210}svg{display:block;width:100%;height:auto}.controls{display:flex;align-items:center;gap:18px;padding:22px 0;flex-wrap:wrap}button{border:1px solid #244b4c;background:#244b4c;color:#fff8e8;padding:11px 24px;border-radius:30px;font:inherit;cursor:pointer}button:hover{background:#3c6662}label{display:flex;gap:12px;align-items:center;font-size:13px}input{accent-color:#df805a;width:130px}output{min-width:35px}.note{margin-left:auto;font-size:12px;color:#70817a}.line{stroke:#244b4c;stroke-linejoin:round;stroke-linecap:round}button:focus-visible,input:focus-visible{outline:3px solid #e69353;outline-offset:4px}@media(max-width:600px){main{padding:24px 14px}header p{display:none}.controls{gap:12px}.note{width:100%;margin:0}button{padding:9px 19px}}
+</style></head>
+<body><main><header><div><div class="eyebrow">Little coastal journeys / 01</div><h1>鹈鹕的海岸骑行</h1></div><p>海风正好，慢慢向前。</p></header>
+<div class="scene"><svg id="scene" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc"><title id="title">一只鹈鹕在海边骑自行车</title><desc id="desc">白色鹈鹕戴着绿帽子、围着红围巾，踩着橘红色自行车沿海岸骑行。双脚跟随脚踏，车轮和景物连续运动。</desc>
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#cce9e3"/><stop offset="1" stop-color="#f0f1d9"/></linearGradient>
+<linearGradient id="sea" x2="0" y2="1"><stop stop-color="#8bc9c0"/><stop offset="1" stop-color="#b3dcd0"/></linearGradient>
+<pattern id="road" width="160" height="90" patternUnits="userSpaceOnUse"><path d="M25 40h65" stroke="#f8edd0" stroke-width="5" stroke-linecap="round"/><path d="M120 72h9M8 15h4" stroke="#a7ad93" stroke-width="2"/></pattern>
+<pattern id="ripples" width="240" height="50" patternUnits="userSpaceOnUse"><path d="M20 16h45m90 20h65" stroke="#e6f2df" stroke-width="3" stroke-linecap="round" opacity=".65"/></pattern>
+<g id="cloud" fill="#fffcee"><path d="M0 28C-5 12 15 3 28 12 29-11 70-12 75 12 96 3 114 16 108 28Z"/></g>
+<g id="shrub" class="line" stroke-width="3"><path d="M0 0q-35-10-27-39Q-7-42 0-13q-4-44 15-46Q35-44 9-12 37-39 44-18 43-2 0 0" fill="#78a590"/><path d="M0 0 15-43M0 0-19-28" fill="none"/></g>
+<g id="wheel" class="line"><circle r="82" fill="#e9f0df" fill-opacity=".45" stroke-width="12"/><circle r="73" fill="none" stroke="#fffbdf" stroke-width="3"/><g stroke="#6c9288" stroke-width="2"><path d="M-72 0H72M0-72V72M-51-51 51 51M-51 51 51-51M-66-28 66 28M-28-66 28 66M-66 28 66-28M-28 66 28-66"/></g><circle r="9" fill="#e8c997" stroke-width="3"/><path d="M-8-72H8" stroke="#e38a58" stroke-width="5"/></g>
+</defs>
+<path fill="url(#sky)" d="M0 0h1200v700H0z"/><circle cx="942" cy="127" r="61" fill="#f8df91"/><circle cx="942" cy="127" r="78" fill="none" stroke="#f8e8ad" stroke-width="1"/>
+<g id="clouds" opacity=".8"><use href="#cloud" x="120" y="94"/><use href="#cloud" x="510" y="62" transform="translate(0 15) scale(1.2)"/><use href="#cloud" x="1090" y="165"/></g>
+<path d="M0 318q100-35 194-18t174-9q127-43 220 3t205-6q96-30 187 3t220 2V420H0Z" fill="#92b9a9" opacity=".55"/>
+<path d="M0 335H1200V485H0Z" fill="url(#sea)"/><path d="M0 340h1200" stroke="#d9e9cf" stroke-width="3"/><path d="M0 354h1200v120H0z" fill="url(#ripples)"/>
+<g id="boat" fill="#fff9dd"><path d="M1020 372h50l-10 10h-29z" fill="#6b9487"/><path d="M1042 324v44h-26zM1047 338v30h22z"/><path d="M1044 321v54" stroke="#638d81" stroke-width="2"/></g>
+<path d="M0 449Q250 426 540 459T1200 446V700H0Z" fill="#e6d4a4"/><path d="M0 454Q250 431 540 464T1200 451" fill="none" stroke="#f8f0d2" stroke-width="9"/>
+<path d="M0 523H1200V659H0Z" fill="#b7b99e"/><path d="M0 531H1200M0 650H1200" stroke="#fff0cd" stroke-width="3"/><path d="M0 543h1200v90H0z" fill="url(#road)"/>
+<g id="plants"><use href="#shrub" x="123" y="509"/><use href="#shrub" x="966" y="511"/><use href="#shrub" x="1160" y="692" transform="translate(-200 0)"/></g>
+<ellipse cx="597" cy="569" rx="260" ry="17" fill="#516a57" opacity=".15"/>
+<g id="rider" class="line">
+<g id="backLeg" fill="none" stroke="#c38b47" stroke-width="13"><path id="legFar" d="M536 365 562 418 565 475"/></g>
+<g transform="translate(427 479)"><g id="rear"><use href="#wheel"/></g></g><g transform="translate(755 479)"><g id="front"><use href="#wheel"/></g></g>
+<path d="M424 388Q380 390 353 438M694 431Q748 361 812 423" fill="none" stroke="#e6a669" stroke-width="7"/>
+<g fill="none" stroke-width="10" stroke="#da7354"><path d="M427 479 500 359 571 479H427L679 356 571 479M500 359 679 356M679 356 755 479"/></g>
+<path d="M500 359 487 330M679 356 664 306 702 296" fill="none" stroke-width="8"/>
+<path d="M467 327q26-8 50 0" fill="none" stroke-width="14"/><path d="M696 295h23q18 0 16 18" fill="none" stroke-width="9"/>
+<path d="M427 468 571 457a22 22 0 0 1 0 44L427 490a11 11 0 0 1 0-22" fill="none" stroke="#456761" stroke-width="3"/>
+<circle cx="571" cy="479" r="24" fill="#f4d595" stroke-width="4"/><g id="gear" stroke-width="2"><path d="M571 461v36M553 479h36M558 466l26 26M558 492l26-26"/></g>
+<g id="farPedal"><path id="crankFar" stroke="#547772" stroke-width="6"/><path id="pedalFar" stroke="#244b4c" stroke-width="8"/></g>
+<g id="bird">
+<path d="M467 303 413 279 429 316 400 310Q429 350 477 342" fill="#e5e9d8" stroke-width="4"/>
+<path d="M459 298C467 267 515 258 555 276 585 288 590 310 611 296 630 279 611 239 612 211 611 181 632 164 656 170 687 176 696 204 680 225 665 244 678 282 671 309 664 344 621 360 573 363 507 372 453 355 459 298Z" fill="#fffced" stroke-width="4"/>
+<path d="M644 234Q647 282 637 308 620 339 576 345" fill="none" stroke="#dce3cf" stroke-width="13"/>
+<path d="M480 297Q518 280 562 308L597 322Q560 355 521 342 493 335 480 297Z" fill="#e3e9d8" stroke-width="3"/>
+<path d="M491 309q28 22 69 15M495 319q25 22 51 14" fill="none" stroke="#bacdbb" stroke-width="2"/>
+<path d="M672 208 810 229Q781 268 732 258 697 249 677 222Z" fill="#f1c278" stroke-width="3"/>
+<path d="M673 204Q739 205 821 226L811 233 679 222Z" fill="#eaa050" stroke-width="3"/><path d="M692 226q41 24 84 15" fill="none" stroke="#dca55d" stroke-width="2"/>
+<circle cx="656" cy="201" r="10" fill="#fff" stroke="none"/><g id="eye"><circle cx="659" cy="201" r="5" fill="#244b4c" stroke="none"/><circle cx="660" cy="199" r="1.5" fill="#fff" stroke="none"/></g><path d="M650 185q8-4 15 1" fill="none" stroke-width="3"/>
+<path d="M615 175q3-32 31-29 26 3 30 30" fill="#43796a" stroke-width="3"/><path d="M609 174q36-7 78 9" fill="none" stroke-width="7"/><path d="M639 147l8 2" stroke="#e6d79c" stroke-width="5"/>
+<path id="scarfTail" d="M621 250Q575 236 547 255L559 268Q593 247 624 261" fill="#db7357" stroke-width="3"/>
+<path d="M613 242q22 10 45 1l3 14q-25 12-48-2Z" fill="#df7d5d" stroke-width="3"/>
+<path d="M558 300Q598 301 644 323L703 302" fill="none" stroke-width="16" stroke="#244b4c"/><path d="M558 300Q598 301 644 323L703 302" fill="none" stroke-width="10" stroke="#f1f0dd"/>
+<path d="M699 302q14-10 21-5" fill="none" stroke-width="9" stroke="#efb761"/>
+</g>
+<path id="legNear" fill="none" stroke="#244b4c" stroke-width="16"/><path id="legNearInner" fill="none" stroke="#edb45e" stroke-width="10"/>
+<path id="crankNear" stroke="#315550" stroke-width="7"/><path id="footNear" fill="#edb45e" stroke-width="3"/><path id="pedalNear" stroke="#244b4c" stroke-width="8"/>
+<circle cx="571" cy="479" r="7" fill="#f9edce" stroke-width="3"/>
+</g>
+<g fill="none" stroke="#6d998c" stroke-width="3" stroke-linecap="round" opacity=".6"><path id="wind1" d="M342 238h-59m32 17h-52"/><path id="wind2" d="M882 322h-45m66 17h-36"/></g>
+<g fill="#597d6c" font-family="system-ui,sans-serif" font-size="11" letter-spacing="4"><text x="43" y="663">COASTAL ROUTE</text><text x="1060" y="663">∞ KM</text></g>
+</svg></div>
+<div class="controls"><button id="pause" type="button" aria-pressed="false">暂停骑行</button><label for="speed">骑行速度 <input id="speed" type="range" min="0.25" max="2" value="1" step="0.05"><output id="value">1.0×</output></label><span class="note">一只鹈鹕，一辆单车，一路海风。 · 空格键暂停</span></div></main>
+<script>
+(()=>{'use strict';const el=id=>document.getElementById(id);let running=true,speed=1,last=0,t=0;const set=(id,a,v)=>el(id).setAttribute(a,v), point=(x,y)=>`${x.toFixed(2)} ${y.toFixed(2)}`;
+// 两段式腿部逆运动学：脚掌固定在脚踏上，膝关节连续弯曲。
+function leg(hx,hy,fx,fy){const dx=fx-hx,dy=fy-hy,d=Math.hypot(dx,dy),a=76,b=78,q=(a*a-b*b+d*d)/(2*d),h=Math.sqrt(Math.max(0,a*a-q*q));return `M${point(hx,hy)} L${point(hx+q*dx/d+h*dy/d,hy+q*dy/d-h*dx/d)} L${point(fx,fy)}`}
+function draw(){const angle=t*2.6,deg=angle*180/Math.PI,travel=angle*2.1*82;set('rear','transform',`rotate(${deg*2.1})`);set('front','transform',`rotate(${deg*2.1})`);set('gear','transform',`rotate(${deg} 571 479)`);set('road','patternTransform',`translate(${-travel%160} 0)`);set('ripples','patternTransform',`translate(${-travel*.13%240} 0)`);set('plants','transform',`translate(${-travel%1500} 0)`);set('clouds','transform',`translate(${-travel*.025%1300} 0)`);set('boat','transform',`translate(${-travel*.075%1300} ${Math.sin(t)*2})`);
+const bounce=Math.sin(angle*2)*1.7;set('bird','transform',`translate(0 ${bounce})`);for(const near of [false,true]){const a=angle+(near?0:Math.PI),x=571+34*Math.cos(a),y=479+34*Math.sin(a),suffix=near?'Near':'Far';set('crank'+suffix,'d',`M571 479L${point(x,y)}`);set('pedal'+suffix,'d',`M${point(x-14,y+5)}h28`);const path=leg(near?543:528,350+bounce,x,y-5);if(near){set('legNear','d',path);set('legNearInner','d',path);set('footNear','d',`M${point(x-9,y-9)}q9-4 15 1l14 8h-34Z`)}else set('legFar','d',path)}
+set('scarfTail','d',`M621 250Q582 ${229+Math.sin(angle*1.7)*7} 541 ${246+Math.sin(angle*1.7+1)*9}L553 ${262+Math.sin(angle*1.7+1)*9}Q585 ${247+Math.sin(angle*1.7)*7} 624 261Z`);const blink=t%5.2;set('eye','transform',blink>4.95&&blink<5.09?'translate(0 181) scale(1 .1)':'');set('wind1','opacity',.4+.3*Math.sin(t*2));set('wind2','opacity',.4+.3*Math.cos(t*2));}
+// 复制前景植物，使滚动跨越画布边界时保持连续。
+const plants=el('plants');const originals=Array.from(plants.children);for(const offset of [1500,3000])for(const node of originals){const g=document.createElementNS('http://www.w3.org/2000/svg','g');g.setAttribute('transform',`translate(${offset} 0)`);g.appendChild(node.cloneNode(true));plants.appendChild(g)}
+function frame(now){if(last&&running)t+=Math.min((now-last)/1000,.05)*speed;last=now;draw();requestAnimationFrame(frame)}function toggle(){running=!running;el('pause').textContent=running?'暂停骑行':'继续骑行';el('pause').setAttribute('aria-pressed',String(!running))}el('pause').addEventListener('click',toggle);el('speed').addEventListener('input',e=>{speed=Number(e.target.value);el('value').value=speed.toFixed(2).replace(/0$/,'')+'×'});document.addEventListener('keydown',e=>{if(e.code==='Space'&&!['INPUT','BUTTON'].includes(document.activeElement.tagName)){e.preventDefault();toggle()}});document.addEventListener('visibilitychange',()=>{last=0});requestAnimationFrame(frame);
+})();
+</script></body></html>
